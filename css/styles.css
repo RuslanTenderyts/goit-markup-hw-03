@@ -74,8 +74,8 @@ body {
   text-decoration: none;
 }
 .link.logo-nav {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-nav,
 .logo-footer {
@@ -204,7 +204,8 @@ body {
   color: var(--main-dark-color);
 }
 .team-title {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -212,8 +213,7 @@ body {
   color: var(--main-dark-color);
 }
 .team-text {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   
@@ -236,17 +236,16 @@ body {
 /* Portfolio */
 /* flex-wrap: wrap; для переносу списків */ 
 .portfolio {
-  margin-top: 151px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .main .list {
   align-items: flex-start;
 }
 .battons-list {
-  width: 575px;
-  margin-bottom: 34px;
-  margin-left: auto;
-  margin-right: auto;
-  
+  justify-content: center;
+  margin-bottom: 50px;
+   
 }
 .buttons {
   font-family: Roboto;
@@ -261,11 +260,9 @@ body {
   cursor: pointer;
   
   padding: 6px 22px;
-  min-width: 73px;
-}
+  }
 .battons-item {
-  min-width: 73px;
-  margin-bottom: 16px;
+  
 }
 .battons-item:not(:last-child) {
   margin-right: 8px;
@@ -276,12 +273,9 @@ body {
   color: var(--main-light-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
+  }
 .list-jobs {
   flex-wrap: wrap;
-  margin-bottom: 37px;
-  
 }
 .list-jobs .item {
   margin-right: 30px;
@@ -322,14 +316,14 @@ body {
   padding-bottom: 60px;
 }
 .logo-footer {
+  display: inline-block;
   margin-bottom: 20px;
+    
 }
 .footer .link {
   color: var(--mail-font-color);
 }
-.footer-list {
-  margin-top: 20px;
-}
+
 .footer-address,
 .footer-contact {
   font-style: normal;
